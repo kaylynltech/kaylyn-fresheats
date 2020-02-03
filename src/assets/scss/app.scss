@@ -1,3 +1,85 @@
 body {
-    background: #a1dae3 url("../media/webpacklogo.png") repeat;
+    background: #a1dae3 url(../media/marble.jpg) repeat;
+    font-family: 'Merriweather', serif;
 }
+
+.logo {
+    float: center;
+}
+
+.nav-bar {
+    text-align: center;
+    font-size: 25px;
+    padding: 30px;
+}
+
+a {
+    color: black;
+    padding: 40px;
+}
+
+h1 {
+    color: rgb(190, 82, 42);
+    text-align: center;
+    font-size: 40px;
+}
+
+.choose-plan {
+    display: flex;
+    flex-direction: row;
+
+    img {
+        padding: 50px;
+    }
+
+    a {
+        text-align: center;
+        font-size: 40px;
+        color: rgb(190, 82, 42);
+        margin-left: 200px;
+        padding-top: 200px;
+    }
+}
+
+.customize {
+    display: flex;
+    flex-direction: row;
+
+    img {
+        padding: 50px;
+    }
+
+    a {
+        text-align: center;
+        font-size: 40px;
+        color: rgb(190, 82, 42);
+        margin-left: 100px;
+        padding-top: 200px;
+    }
+}
+
+.check-out {
+    display: flex;
+    flex-direction: row;
+
+    img {
+        padding: 50px;
+    }
+
+    a {
+        text-align: center;
+        font-size: 40px;
+        color: rgb(190, 82, 42);
+        margin-left: 100px;
+        padding-top: 200px;
+    }
+}
+
+form {
+    margin-left: 500px;
+}
+
+h2 {
+    margin-left: 600px;
+}
+
